@@ -1,0 +1,30 @@
+<!-- wp:query {"queryId":0,"query":{"perPage":9,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null,"parents":[]},"layout":{"type":"default"}} -->
+<div class="wp-block-query"><!-- wp:post-template {"layout":{"type":"grid","columnCount":"2"}} -->
+    <!-- wp:group {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|20"},"blockGap":"10px"}},"layout":{"type":"default"}} -->
+    <div class="wp-block-group" style="padding-bottom:var(--wp--preset--spacing--20)">
+        <!-- wp:post-title {"isLink":true,"style":{"layout":{"selfStretch":"fill","flexSize":null},"typography":{"fontSize":"24px"}}} /-->
+
+        <!-- wp:post-featured-image {"aspectRatio":"auto","height":"360px","style":{"border":{"radius":"10px"}}} /-->
+
+        <!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","verticalAlignment":"top","justifyContent":"space-between","orientation":"horizontal"}} -->
+        <div class="wp-block-group">
+            <!-- wp:post-date {"format":"M j, Y","style":{"layout":{"selfStretch":"fixed","flexSize":"100px"},"spacing":{"margin":{"right":"var:preset|spacing|30"}},"elements":{"link":{"color":{"text":"#333333"},":hover":{"color":{"text":"var:preset|color|black"}}}},"typography":{"fontStyle":"normal","fontWeight":"400","fontSize":"14px"}}} /-->
+
+            <!-- wp:post-terms {"term":"category","style":{"layout":{"selfStretch":"fit","flexSize":null},"typography":{"fontStyle":"normal","fontWeight":"400","fontSize":"14px"}}} /-->
+        </div>
+        <!-- /wp:group -->
+    </div>
+    <!-- /wp:group -->
+    <!-- /wp:post-template -->
+
+    <!-- wp:group {"layout":{"inherit":true,"type":"constrained"}} -->
+    <div class="wp-block-group">
+        <!-- wp:query-pagination {"paginationArrow":"arrow","layout":{"type":"flex","justifyContent":"space-between"}} -->
+        <!-- wp:query-pagination-previous {"label":"Previous"} /-->
+
+        <!-- wp:query-pagination-next {"label":"Next"} /-->
+        <!-- /wp:query-pagination -->
+    </div>
+    <!-- /wp:group -->
+</div>
+<!-- /wp:query -->
