@@ -7,6 +7,11 @@
     </url>
     <url>
         <loc>
+            http://localhost:8000/tbilisi-georgia/
+        </loc>
+    </url>
+    <url>
+        <loc>
             http://localhost:8000/
         </loc>
     </url>
@@ -18,6 +23,11 @@
     <url>
         <loc>
             http://localhost:8000/author/marikoooooo/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/author/tahahayat/
         </loc>
     </url>
 </urlset>
